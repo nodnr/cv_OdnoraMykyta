@@ -63,21 +63,9 @@ button {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#feffff", endColorstr="#a0d8ef", GradientType=0);
 }
 
-.my-date {
-  display: flex;
-  flex-direction: column;
-}
-.my-date-main {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
-  justify-content: space-evenly;
-}
-.my-date-main .name {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 50%;
+img{
+  float: right;
+  width: 35%;
 }
 .my-date-main h1 {
   font-size: 28px;
@@ -85,10 +73,7 @@ button {
 .my-date-main h2 {
   font-size: 20px;
 }
-.my-date-main picture {
-  width: 35%;
-  height: 100%;
-}
+
 
 .connect a {
   color: black;
